@@ -27,4 +27,5 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 sent = input("Please enter a string of text (the bigger the better): ")
-print("You entered "sent". Now jumble it: ")
+
+print('You entered "{0}". Now jumble it: ' .format(sent))
