@@ -34,4 +34,4 @@ print(sent [::-1])
 
 a = list(sent.split())
 a.reverse()
-print(a)
+[print(x, end=" ") for x in a]
