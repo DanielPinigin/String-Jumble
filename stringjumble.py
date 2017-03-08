@@ -33,5 +33,5 @@ print('You entered "{0}". Now jumble it:'.format(sent))
 print(sent [::-1])
 
 a = list(sent.split())
-a = reverse_list(a)
+a.reverse()
 print(a)
