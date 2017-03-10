@@ -30,8 +30,13 @@ sent = str(input("Please enter a string of text (the bigger the better):"))
 
 print('You entered "{0}". Now jumble it:'.format(sent))
 
-print(sent [::-1])
+#print(sent [::-1])
 
 a = list(sent.split())
 a.reverse()
 [print(x, end=" ") for x in a]
+
+for b in a:
+    list(b)
+    b.reverse()
+    [print(x, end=" ") for x in b]
