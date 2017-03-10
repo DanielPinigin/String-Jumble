@@ -26,17 +26,21 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-sent = str(input("Please enter a string of text (the bigger the better):"))
+#sent = str(input("Please enter a string of text (the bigger the better):"))
+
+sent = "The dogs are very cool"
 
 print('You entered "{0}". Now jumble it:'.format(sent))
 
-#print(sent [::-1])
+print(sent [::-1])
 
 a = list(sent.split())
 a.reverse()
 [print(x, end=" ") for x in a]
 
-for b in a:
-    list(b)
-    b.reverse()
-    [print(x, end=" ") for x in b]
+w = list(sent.split())
+for b in w:
+    c=list(b)
+    c.reverse()
+    [print(x, end="") for x in c]
+    print(" ", end="")
